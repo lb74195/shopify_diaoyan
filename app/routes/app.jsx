@@ -3,11 +3,11 @@ import { Link, Outlet, useLoaderData, useRouteError } from "@remix-run/react";
 import { boundary } from "@shopify/shopify-app-remix/server";
 import { AppProvider } from "@shopify/shopify-app-remix/react";
 import { NavMenu } from "@shopify/app-bridge-react";
-import polarisStyles from "@shopify/polaris/build/esm/styles.css";
+import '@shopify/polaris/build/esm/styles.css';
 import { authenticate } from "../shopify.server";
 
 export const links = () => [
-  { rel: "stylesheet", href: polarisStyles },
+  { rel: "stylesheet", href: '@shopify/polaris/build/esm/styles.css' },
   // ... other links if any ...
 ];
 

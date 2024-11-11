@@ -3,7 +3,7 @@
 client_id = "b6a0c14ec1ac5c44414c3725e29181dc"
 name = "dianoia-survey"
 handle = "dianoia-survey"
-application_url = "https://roy-quotes-consultation-flower.trycloudflare.com"
+application_url = "https://hometown-casinos-pet-massachusetts.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://roy-quotes-consultation-flower.trycloudflare.com/auth/callback",
-  "https://roy-quotes-consultation-flower.trycloudflare.com/auth/shopify/callback",
-  "https://roy-quotes-consultation-flower.trycloudflare.com/api/auth/callback"
+  "https://hometown-casinos-pet-massachusetts.trycloudflare.com/auth/callback",
+  "https://hometown-casinos-pet-massachusetts.trycloudflare.com/auth/shopify/callback",
+  "https://hometown-casinos-pet-massachusetts.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
